@@ -14,6 +14,6 @@ class Asroute < Formula
   end
 
   test do
-    "echo '[AS13335]' | asroute"
+    system "echo '[AS13335]' | asroute"
   end
 end
